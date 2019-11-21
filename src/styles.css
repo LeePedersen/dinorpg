@@ -1,0 +1,129 @@
+body{
+  background-color: #006600;
+}
+p{
+  text-align: center;
+  padding: 4px;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  border: 3px solid #ff9900;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario1{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.action1{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario2{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.action2{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario3{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.action3{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario1lucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario1unlucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario2lucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario2unlucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario3lucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenario3unlucky{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#scenarioTimeOut{
+  display: none;
+  text-align: center;
+  border: 3px solid #ff9900;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+}
