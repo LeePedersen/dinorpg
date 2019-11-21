@@ -1,4 +1,4 @@
-// <!-- NOTE TO LEE: I would like to work on the testing process with you tomorrow, please do not undergo them without me! -->
+
 export class Equipment {
   constructor() {
     this.equipment1,
@@ -105,5 +105,5 @@ export class Equipment {
 }
 
 export class Chances {
-  
+
 }

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- NOTE TO LEE: I would like to work on the testing process with you tomorrow, please do not undergo them without me! -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -16,11 +15,11 @@
       <p>While rummaging through the fuselage, you find a <span class="equipment1"></span>, a <span class="equipment2"></span>, and a giant <span class="equipment3"></span>. You are ready to explore the island. Fate is not on your side today, for as soon as you step outside of the aircraft, a rather angry looking <span class="dinosaur1"></span> jumps you. How do you respond?</p>
       <br>
       <form class="action1" action="index.html" method="post">
-          <input type="radio" id="s1a1" name="" value=""> "I will use my <span class="equipment1"></span> to attempt to slay this funky dude!"
+          <input type="radio" id="s1a1" name="action" value="equipment1"> "I will use my <span class="equipment1"></span> to attempt to slay this funky dude!"
           <br>
-          <input type="radio" id="s1a2" name="" value="">"I will lambast the foul spawn, using my hefty <span class="equipment2"></span> as motivation."
+          <input type="radio" id="s1a2" name="action" value="equipment2">"I will lambast the foul spawn, using my hefty <span class="equipment2"></span> as motivation."
           <br>
-          <input type="radio" id="s1a3" name="" value="">"I offer my <span class="equipment3"></span> as tribute to the celelstial scale-goddess!"
+          <input type="radio" id="s1a3" name="action" value="equipment3">"I offer my <span class="equipment3"></span> as tribute to the celelstial scale-goddess!"
           <br>
       </form>
     </div>
@@ -28,11 +27,11 @@
       <br>
       <p>You've been exploring the island for several days, and are desperate for food and other supplies. You spot a mysterious cave in the distance, and feel strangely motivated to explore it. The cave is big and dark, and you're scared. But as much as you are scared, you are also brave. You enter the cave. OH NO! You have stumbled *literally* upon a sleeping <span class="dinosaur2"></span>. The waking beast was expecting a mate, and you are a poor substitute. How do you escape this terrifying and slightly awkward situation?</p>
       <form class="action2" action="index.html" method="post">
-          <input type="radio" id="s2a1" name="" value=""> "I think I will throw my <span class="equipment1"></span> at it and turn around."
+          <input type="radio" id="s2a1" name="action2" value="equipment1"> "I think I will throw my <span class="equipment1"></span> at it and turn around."
           <br>
-          <input type="radio" id="s2a2" name="" value="">"I will demonstrate that this is my territory by waving my <span class="equipment2"></span> and shouting wildly!"
+          <input type="radio" id="s2a2" name="action2" value="equipment2">"I will demonstrate that this is my territory by waving my <span class="equipment2"></span> and shouting wildly!"
           <br>
-          <input type="radio" id="s2a3" name="" value="">"I try to camoflauge myself into the cave wall hiding behind my <span class="equipment3"></span> which just happens to be the same color as the cave wall."
+          <input type="radio" id="s2a3" name="action2" value="equipment3">"I try to camoflauge myself into the cave wall hiding behind my <span class="equipment3"></span> which just happens to be the same color as the cave wall."
           <br>
       </form>
     </div>
@@ -40,11 +39,11 @@
       <br>
       <p>You have built an impressive, lavish raft from the materials found in the cave. While concerned about how you will get to the Bahamas, your concern is replaced with a strange smell. You try to discern the cause of the smell, and it turns out that a giant, stench-ridden, aquatic <span class="dinosaur3"></span> has been lurking under your raft. It seems as if you made the raft a little too lavish. How do you earn your vacation?</p>
       <form class="action3" action="index.html" method="post">
-          <input type="radio" id="s3a1" name="" value=""> "I will throw my <span class="equipment4"></span> away from my raft to try and distract the menace from below!"
+          <input type="radio" id="s3a1" name="action3" value="equipment1"> "I will throw my <span class="equipment4"></span> away from my raft to try and distract the menace from below!"
           <br>
-          <input type="radio" id="s3a2" name="" value="">"I will brace my <span class="equipment5"></span> on the <span class="dinosaur3"></span>'s nose, ensuring that I always stay some distance in front of him, hoping to be pushed quite quickly all the way to the Bahamas."
+          <input type="radio" id="s3a2" name="action3" value="equipment2">"I will brace my <span class="equipment5"></span> on the <span class="dinosaur3"></span>'s nose, ensuring that I always stay some distance in front of him, hoping to be pushed quite quickly all the way to the Bahamas."
           <br>
-          <input type="radio" id="s3a3" name="" value="">"I wait until the <span class="dinosaur6"></span> has enveloped my raft in it's epic maw, and then throw my <span class="equipment3"></span> into it's throat, in an attempt to kill it."
+          <input type="radio" id="s3a3" name="action3" value="equipment3">"I wait until the <span class="dinosaur6"></span> has enveloped my raft in it's epic maw, and then throw my <span class="equipment3"></span> into it's throat, in an attempt to kill it."
           <br>
       </form>
     </div>
@@ -74,7 +73,7 @@
       </div>
     </div>
   </div>
-  <div ids="scenarioTimeOut">
+  <div id="scenarioTimeOut">
     <p>TOO SLOW! Your lack of action has prevented all hope of escape, and you are now being digested within the guts of a super-lizard!</p>
   </div>
   </body>
